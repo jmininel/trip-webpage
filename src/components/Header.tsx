@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Link from "next/link";
 import Image from 'next/image';
 
-import { signIn,  useSession } from 'next-auth/react';
+import { signIn,  signOut,  useSession } from 'next-auth/react';
 import { AiOutlineMenu } from 'react-icons/ai';
 
 
