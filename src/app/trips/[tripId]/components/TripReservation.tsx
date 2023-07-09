@@ -20,10 +20,12 @@ const TripReservation = ({ trip }: TripReservationProps) => {
             <Input placeholder={`Número de hóspedes (max: ${trip.maxGuests})`} className="mt-4" />
 
             <div className="flex justify-between mt-3">
-              <p className="font-medium text-sm text-primaryDarker">Total: </p>
-              <p className="font-medium text-sm text-primaryDarker">R$2500 </p>
+                <p className="font-medium text-sm text-primaryDarker">Total: </p>
+                <p className="font-medium text-sm text-primaryDarker">R$2500 </p>
             </div>
-            <Button className="mt-3" variant='primary'> Reservar agora</Button>
+            <div className="pb-10 border-b border-y-grayLighter w-full">
+                <Button className="mt-3 w-full" variant='primary'> Reservar agora</Button>
+            </div>
         </div>
     )
 }
